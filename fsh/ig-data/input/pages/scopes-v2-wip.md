@@ -35,7 +35,7 @@ Scope requests with undefined or out of order interactions SHALL be ignored. For
 
 ### Batches and Transactions
 
-SMART 2.0 does not define specific scopes for [batch or transaction](http://hl7.org/fhir/http.html#transaction) interactions. These system-level interactions are simply convience wrappers for other interactions. As such, batch and transaction requests should be validated based on the actual requests within them.
+SMART 2.0 does not define specific scopes for [batch or transaction](http://hl7.org/fhir/http.html#transaction) interactions. These system-level interactions are simply convenience wrappers for other interactions. As such, batch and transaction requests should be validated based on the actual requests within them.
 
 #### Batch Details
 
